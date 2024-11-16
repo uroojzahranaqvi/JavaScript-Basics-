@@ -188,3 +188,60 @@ switch (fruit) {
         console.log(`Choose the right option`);
         break;
 }
+
+//Question-8:   WAP to categorize a given temperature into "low," "medium," or "high" ranges.
+
+let temp = parseFloat(prompt(`Please enter the temperature`));
+
+if(temp >= 100){
+    console.log(`Temperature is high`);
+}
+else if(temp >= 50 && temp < 100){
+    console.log(`Temperature is medium`);
+}
+else if(temp < 50){
+    console.log(`Temperature is low`);
+}
+else{
+    console.log(`Enter the valid temperature`);
+}
+
+//Question-9:   WAP that classifies a number as positive, negative, even, or odd.
+
+let number = parseFloat(prompt(`Please enter the number`));
+
+if(number > 0){
+    console.log(`Number is positive`);
+}
+else if(number < 0){
+    console.log(`Number is negative`);
+}
+else if(number == 0){
+    console.log(`Number is zero`);
+}
+else{
+    console.log(`Enter a valid number`);
+}
+
+// Check for even and odd
+
+if(number % 2 === 0){
+    console.log(`Number is even`);
+}
+else if(number % 2 !== 0){
+    console.log(`Number is odd`);
+}
+
+//Question-10:  WAP to validate a username. If the username is less than 6 characters, log "Username too short"; if it's more than 15 characters, log "Username too long"; otherwise, log "Username accepted."
+
+let userName = prompt(`Please enter your username`);
+
+if(userName.length < 6){
+    console.log(`Username too short`);
+}
+else if(userName.length > 15){
+    console.log(`Username too long`);
+}
+else{
+    console.log(`Username accepted`);
+}
