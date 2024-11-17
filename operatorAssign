@@ -1,0 +1,14 @@
+// Problem 1: Write a JavaScript program to perform arithmetic operations on two numbers (addition, subtraction, multiplication, division).
+
+let firstNumber = parseFloat(prompt(`Enter the first number`));
+let secondNumber = parseFloat(prompt(`Enter the second number`));
+let addition = firstNumber + secondNumber;
+let subtraction = firstNumber - secondNumber;
+let multiplication = firstNumber * secondNumber;
+let division = firstNumber / secondNumber;
+
+
+console.log(`The addition of first number and second number is : ${addition} `);
+console.log(`The subtraction of first number and second number is : ${subtraction} `);
+console.log(`The multiplication of first number and second number is : ${multiplication} `);
+console.log(`The division of first number and second number is : ${division} `);
